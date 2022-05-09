@@ -1,0 +1,6 @@
+first_num = int(input("Введите первое число:"))
+second_num = int(input("Введите второе число:"))
+third_num = int(input("Введите третье число:"))
+final_num = (first_num>0) + (second_num>0) + (third_num>0)
+negative_num = (first_num<0) + (second_num<0) + (third_num<0)
+print(f"Положительных чисел {final_num}, {negative_num} являются отрицательными")
